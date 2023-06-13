@@ -28,7 +28,6 @@ https://restaurante-hingknszc-ronaldonascimentosantos.vercel.app/
 - Poderão ser criados novos usuários através da tela de SingUp. Por padrão todos os usuários criados serão "consumidores".  
 - Os consumidores poderão pesquisar por pratos, inserir itens no carrinho, remover itens, selecionar o tipo de pagamento e realizar o pedido. 
 - O consumidor também poderá revisar os itens do carrinho antes de realizar o pagamento, removendo os itens caso queira.
-- Ao realizar o pagamento o pedido é efetuado realizando o cadastramento do pedido no banco de dados.
 - Administradores poderão inserir novos pratos, fazer upload da imagem, selecionar categoria, definir o preço, nome do prato e descrição.
 - Os administradores também poderão excluir ou alterar pratos já existentes.
 - Poderão ser realizadas pesquisas pelos pratos cadastrados.
