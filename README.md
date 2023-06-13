@@ -2,7 +2,7 @@
  <img src="./src/assets/brandGit.png"/>
  </p>
 
-## Front-End / Back-end
+## Front-End / 
 
 O Food Explorer é uma aplicação completa desenvolvida como projeto final da trilha Explorer da Rocketseat.
 Para criação da aplicação foram utilizadas todas as tecnologias aprendidas durante o curso, criando a página de um restaurante fictício utilizando o conceito  de layout responsivo (Mobile first).
@@ -11,8 +11,8 @@ Para desenvolvimento da solução do desafio foi disponibilizado o modelo do Fig
 
 ## Deploy
 
-- Site:  https://rvdfoodexplorer.netlify.app/
-
+- Site:  
+https://restaurante-hingknszc-ronaldonascimentosantos.vercel.app/
 
 ## Imagens
 
@@ -24,8 +24,7 @@ Para desenvolvimento da solução do desafio foi disponibilizado o modelo do Fig
 
 
 ## Características
-
-- Todos os dados são armazenados em um banco de dados relacional.
+- Todos os consumidores  :
 - Poderão ser criados novos usuários através da tela de SingUp. Por padrão todos os usuários criados serão "consumidores".  
 - Os consumidores poderão pesquisar por pratos, inserir itens no carrinho, remover itens, selecionar o tipo de pagamento e realizar o pedido. 
 - O consumidor também poderá revisar os itens do carrinho antes de realizar o pagamento, removendo os itens caso queira.
@@ -33,12 +32,9 @@ Para desenvolvimento da solução do desafio foi disponibilizado o modelo do Fig
 - Administradores poderão inserir novos pratos, fazer upload da imagem, selecionar categoria, definir o preço, nome do prato e descrição.
 - Os administradores também poderão excluir ou alterar pratos já existentes.
 - Poderão ser realizadas pesquisas pelos pratos cadastrados.
-- A autenticação dos usuários será por JWT, com validação por senha a qual será criptografada no banco de dados.
 - O layout desenvolvido é do tipo responsivo (Mobile First), funcionando perfeitamente em vários tamanhos de telas.
 - As APIs utilizadas foram desenvolvidas para esta aplicação (não foram utilizadas APIs de terceiros).
 - Foi aplicado o conceito de Inversão de dependência na API do usuário.
-- Adicionada a função de marcar "favoritos" mas sem adição ao banco de dados (milha extra).
-- OBS.: o Back-end possui algumas APIs desenvolvidas além dos requisitos do projeto mas que ainda não aplicadas (para desenvolvimento futuro).
 
 ## Tecnologias empregadas
 
@@ -58,43 +54,34 @@ Para desenvolvimento da solução do desafio foi disponibilizado o modelo do Fig
 - Javascript
 - Reactjs 
 - JQuery
-- Express
-- Bcrypt
-- Knex
-- SQlite
 - Styled Components 
 - Inversão de dependência
 - Axios 
 - Vite 
-- Node 
 - Jest
-- PM2
 - Git
-
+- Swiper Carrossel de Imagens
+- React-ROuter Dom 
+- React Icons
 
 ## Instalação e clone do projeto
 
  **Front-end**
-```bash
-git clone https://github.com/rovedabr/FrontEnd_FoodExplorer
-```
-**Back-end**
-```bash
-git clone https://github.com/rovedabr/BackEnd_FoodExplorer
-```
+
+git clone 
 
 Acessar a pasta e instale as dependências
 ```bash
 npm install
 ```
 
-Iniciar o servidor local (back-end / front-end)
-```bash
+Iniciar o servidor local ( front-end)
+
 npm run dev
-```
+
 
 Acessar o endereço fornecido pelo terminal via Browser (_exemplo abaixo_)
-```bash
+
 Local:   http://localhost:5173/
 ```
 
@@ -108,16 +95,14 @@ Local:   http://localhost:5173/
 
 ## Contato
 
-**Ivan Roveda**
-- [Linkedin](https://www.linkedin.com/in/ivan-roveda-952827b8/)
-- E-mail : ivan.roveda76@gmail.com
+Linkedin: https://www.linkedin.com/in/ronaldonascimento-desenvolvedor/
 
 
 ## Links uteis
 
 - [Rockeseat](https://www.rocketseat.com.br/)
-- [Netlify](https://www.netlify.com/)
-- [render](https://render.com/)
+
+
 
 
 ## License
@@ -125,7 +110,3 @@ Local:   http://localhost:5173/
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-## Agradecimento 
-
-- A toda equipe da Rocketseat pelo apoio e ensinamentos prestados. 
-- Ao meu companheiro de vida Juscelino, a minha família, a meus amigos que me apoiaram nesta transição, em especial o Bruno, pela paciência e apoio durante o curso.
